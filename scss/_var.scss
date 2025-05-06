@@ -1,0 +1,39 @@
+// Variables
+
+// --- Color Palette ---
+// Based on suggestions for a warm, cozy cafe feel
+$primary-color: #A0522D;    // Warm Brown (Sienna)
+$secondary-color: #F5F5DC;  // Creamy Beige
+$accent-color: #2F4F4F;     // Deep Green (Dark Slate Gray)
+$text-color: #36454F;       // Dark Charcoal
+$light-text-color: #F8F8FF; // Soft White
+
+// --- Font Suggestion ---
+// Pairing a heading font with a readable body font
+$font-heading: 'Quicksand', sans-serif; // For headings and potentially navigation
+$font-body: 'Open Sans', sans-serif;    // For body text and paragraphs
+
+// font size
+$font-sm: 1.6rem;     // 16px
+$font-md: 2.4rem;   // 24px
+$font-lg: 3.2rem;     // 32px
+$font-xl: 4.8rem;     // 48px
+$font-xxl: 6.4rem;     // 64px
+
+// --- Spacing Scale ---
+// Using rem for consistency and responsiveness
+$spacing-xxs: 0.4rem; // 4px
+$spacing-xs: 0.8rem;   // 8px
+$spacing-sm: 1.6rem;     // 16px
+$spacing-md: 2.4rem;   // 24px
+$spacing-lg: 3.2rem;     // 32px
+$spacing-xl: 4.8rem;     // 48px
+$spacing-xxl: 6.4rem;    // 64px
+
+// --- Other common variables (optional, add as needed) ---
+$border-radius-sm: 1rem;
+$border-radius-md: 1.2rem;
+$border-radius-lg: 2rem;
+
+$box-shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+$box-shadow-md: 0 4px 8px rgba(0, 0, 0, 0.15);
