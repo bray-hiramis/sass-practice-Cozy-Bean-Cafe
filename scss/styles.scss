@@ -127,3 +127,99 @@
         }
     }
 }
+
+#menu {
+    background-color: var.$primary-color;
+    margin: var.$spacing-lg 0;
+    padding: var.$spacing-lg;
+
+    .menu-headline {
+        margin-bottom: var.$spacing-lg;
+        color: var.$secondary-color;
+
+        p {
+            font-size: var.$font-md;
+            text-align: center;
+        }
+    }
+    .menu-items {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        grid-auto-flow: row dense;
+        overflow: hidden;
+        gap: 2rem;
+
+        .coffee-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: var.$secondary-color;
+            border-radius: var.$border-radius-md;
+            box-shadow: 0 5px 10px #333;
+            padding: var.$spacing-lg;
+
+            &:last-of-type {
+                grid-column: span 2;
+            }
+
+            h3 {
+                font-size: var.$font-md;
+                margin: var.$spacing-md 0;
+            }
+
+            .coffee-menu {
+                display: flex;
+                align-items: center;
+
+                img {
+                    max-width: 300px;
+                    padding: var.$spacing-md;
+                }
+
+                li {
+                    font-size: var.$font-md;
+                }
+            }
+        }
+    }
+}
+
+#visit-us {
+
+    h3 {
+        font-size: var.$font-lg;
+        margin: var.$spacing-xl 0;
+    }
+
+    p {
+        font-size: var.$font-md;
+        text-indent: 2rem;
+    }
+
+    .container {
+        display: flex;
+        gap: 5rem;
+
+        .address-section {
+
+            address {
+                iframe {
+                    margin-top: var.$spacing-lg;
+                    box-shadow: 0 4px 10px var.$text-color;
+                }
+            }
+        }
+    }
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: var.$spacing-lg;
+    height: 10vh;
+    font-size: var.$font-sm;
+    color: var.$secondary-color;
+    background-color: var.$primary-color;
+}
