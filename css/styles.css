@@ -55,6 +55,29 @@ a {
   color: #36454F;
 }
 
+@media only screen and (max-width: 768px) {
+  #home .container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .heading-img {
+    display: none;
+  }
+  .btn-primary {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  #about-us .about-container {
+    flex-direction: column;
+  }
+  #menu .menu-items {
+    grid-template-columns: 1fr;
+  }
+  #menu .coffee-card .coffee-menu {
+    flex-direction: column;
+  }
+}
 #home {
   position: sticky;
   top: 0;
@@ -174,8 +197,8 @@ a {
 }
 #menu .menu-items {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  grid-auto-flow: row dense;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-flow: row;
   overflow: hidden;
   gap: 2rem;
 }

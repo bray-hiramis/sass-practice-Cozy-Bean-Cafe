@@ -1,0 +1,36 @@
+@media only screen and (max-width: 768px) {
+    #home {
+        .container {
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+
+    .heading-img {
+        display: none;
+    }
+
+    .btn-primary {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    #about-us {
+        .about-container {
+            flex-direction: column;
+        }
+    }
+
+    #menu {
+        .menu-items {
+            grid-template-columns: 1fr;
+        }
+
+        .coffee-card {
+            .coffee-menu {
+                flex-direction: column;
+            }
+        }
+    }
+}
